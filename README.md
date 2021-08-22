@@ -20,7 +20,9 @@ This definition has two useful properties:
     
 2. A natural number is the set of all naturals preceding it.
 
-    This property makes defining the order between numbers easy. n < m if n is an element of m; equivalently if n is a subset of m.
+    This property makes defining the order between numbers easy. n < m if n is an element of m; equivalently if n is a subset of m. It also helps in defining certain functions
+    * max(a,b) = a &cup; b
+    * sup{ a<sub>i</sub> | i &in; I } = &cup;<sub>i &in; I</sub> a<sub>i</sub>
 
 ### Transfinite Ordinals
 The set of natural numbers &Nopf; is thus defined as {0,1,2,3,...}. The definition of size for the natural numbers also applies to &Nopf; itself. A set that is 'bijective' with &Nopf; is called 'countably infinite'.
